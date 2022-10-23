@@ -2,34 +2,42 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.5;
-  background-color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:serif;
+  background-image: url("cream1.jpeg");
+  background-size: cover;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3%;
-  background-color: black;
-  color: #fff;
+  color: black;
+  margin-bottom: 5%;
+  background-image: url("IMG_5103.PNG");
+  }
+
+.professionalheadshot {
+  height: 325px;
+  width: 280px;
+  padding-left: 2%;
+  margin-top: 5%;
 }
 
-.name {
-color: turquoise;
-font-size: 52pt;
-}
 h1 {
-  font-size: 40pt;
+  font-size: 45pt;
+  color: black;
+  margin-left: 5%;
+  margin-right: 2%;
 }
 
 h2 {
-  margin: 2% 0;
-  font-size: 250%;
-  background-color: black;
-  color: white;
+  font-size: 220%;
+  color: black;
   text-align: left;
+  margin-bottom: -2%;
+  margin-left: 300px;
 }
+
 
 nav ul {
   display: flex;
@@ -40,16 +48,19 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: black;
   font-weight: bold;
   text-decoration: none;
+  border-bottom: 1px solid white;
 }
 
 main {
-  display: flex;
-  flex: 1 1 0;
-  max-width: 1700px;
-  margin: 2% auto;
+font-size: 17pt;
+max-width: 1700px;
+display: flex;
+flex: 1 1 0;
+max-width: 1700px;
+margin: 2% auto;
 }
 
 section {
@@ -57,33 +68,129 @@ section {
   padding-right: 1%;
 }
 
-article {
-  border-bottom: 1px solid turquoise;
-
-}
-
 article p {
-  margin: 2 0;
   font-size: 17pt;
   text-align: left;
-  color: white;
-  margin-right: 200px;
+  color: black;
+  margin-left: 170px;
+  display: inline-block;
+  margin-top: -4%;
 }
 
-aside {
-  width: 15%;
+.about-me h2 {
+  text-align: left;
+  margin-left: -20%;
+  margin-right: 10%;
+  margin-top: -12px;
 }
 
-.professionalheadshot {
-max-width: 300px;
+
+.about-me {
+  margin-bottom: -15px;
+  margin-top: -70px;
+  margin-left: -150px;
+  padding: 15px;
+  padding-bottom: 15px;
+  height: 270px;
+  width: 900px;
+  font-family:serif;
+  background-image: url("cream1.jpeg");
+  color: black;
+  text-align: center;
+  display: block;
+}
+
+.mywork h2 {
+  padding-bottom: 200px;
+  width: 1000px;
+  position: absolute;
+  margin-left: 200px;
+}
+
+.mywork{
+  display:inline-block;
+  text-align: left;
+  margin-top: -60px;
+  margin-left: 1px;
+  padding-top: 15px;
+  font-family:serif;
+  color: black;
+}
+
+.contact-me h2 {
+  text-align: left;
+  margin-left: -1%;
+  margin-right: 60px;
+  padding-right: 20%;
+  margin-top: 43%;
+  display: flex;
+  margin-bottom: 50px ;
+}
+
+.projects {
+padding-top: 80pt;
+padding-right: 10pt;
+margin-left: 20pt;
+width: 400pt;
+text-align: center;
+}
+
+.projects img {
+  display:flex;
+  margin-bottom: 10pt;
+  margin-top: -50pt;
+ 
+}
+
+.image{
+  padding-left: 500pt;
+}
+
+
+.contact-me{
+margin-right: -900px;
+margin-left: -920px;
+margin-top: 600px;
+margin-bottom: -800px;
+ height: 410px;
+  width: 1100px;
+  font-family:serif;
+  background-image: url("cream1.jpeg");
+  color: black;
+  text-align: left;
+}
+
+.userimage {
+  float: left;
+  margin-right: 25px;
+  height: 120px;
+  width: 130px;
+  margin-left: 15px;
+}
+
+.workimage {
+  float: left;
+  margin-right: -60px;
+  height: 120px;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.contactimage {
+  float: left;
+  margin-right: 40px;
+  height: 120px;
+  width: 130px;
+  margin-left: 10px;
 }
 
 footer {
   display: flex;
   justify-content: center;
   padding: 2%;
-  background-color: black;
-  color: #fff;
+  color: black;
+  background-image: url("cream1.jpeg");
+  background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
