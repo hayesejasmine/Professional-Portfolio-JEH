@@ -1,201 +1,183 @@
-body {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.5;
-  font-family:serif;
-  background-image: url("cream1.jpeg");
-  background-size: cover;
-}
+* {padding: 0;
+  margin: 0;}
 
+/* The webpages background color has been set below*/
+body {background-color: rgb(223,218,218);}
+
+/* Below are style definitions for the content displayed in the header section*/
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: black;
-  margin-bottom: 5%;
-  background-image: url("IMG_5103.PNG");
-  }
-
-.professionalheadshot {
-  height: 325px;
-  width: 280px;
-  padding-left: 2%;
-  margin-top: 5%;
+  background-color:cadetblue;
+  color: #ffffff;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1 {
-  font-size: 45pt;
-  color: black;
-  margin-left: 5%;
-  margin-right: 2%;
-}
+/* The web pages title has a inline-block style, meaning it can sit on the same line as the links in the header, while the margins and paddings are respected. */
+header h1 {
+  font-size: 58px;
+  display: inline-block;}
 
-h2 {
-  font-size: 220%;
-  color: black;
-  text-align: left;
-  margin-bottom: -2%;
-  margin-left: 300px;
-}
-
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  min-width: 400px;
-  font-size: 16pt;
-  list-style: none;
-}
-
-nav a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  border-bottom: 1px solid white;
-}
-
-main {
-font-size: 17pt;
-max-width: 1700px;
-display: flex;
-flex: 1 1 0;
-max-width: 1700px;
-margin: 2% auto;
-}
-
-section {
-  flex: 1 1 0;
-  padding-right: 1%;
-}
-
-article p {
-  font-size: 17pt;
-  text-align: left;
-  color: black;
-  margin-left: 170px;
-  display: inline-block;
-  margin-top: -4%;
-}
-
-.about-me h2 {
-  text-align: left;
-  margin-left: -20%;
-  margin-right: 10%;
-  margin-top: -12px;
-}
-
-
-.about-me {
-  margin-bottom: -15px;
-  margin-top: -70px;
-  margin-left: -150px;
-  padding: 15px;
-  padding-bottom: 15px;
-  height: 270px;
-  width: 900px;
-  font-family:serif;
-  background-image: url("cream1.jpeg");
-  color: black;
-  text-align: center;
-  display: block;
-}
-
-.mywork h2 {
-  padding-bottom: 200px;
-  width: 1000px;
-  position: absolute;
-  margin-left: 200px;
-}
-
-.mywork{
-  display:inline-block;
-  text-align: left;
-  margin-top: -60px;
-  margin-left: 1px;
+header nav{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
   padding-top: 15px;
-  font-family:serif;
-  color: black;
+  margin-right: 20px;
+  float: right;}
+
+/*the unordered links in the header do not follow a list syle*/
+header nav ul {list-style-type: none;}
+
+header nav ul li {
+  display: inline-flex;
+  margin-left: 50px;}
+
+/* The links on the webpage share the same text color, defined below */
+a {color: #ffffff; text-decoration: none;}
+
+/* All paragraphed text will contain a font size of 18px unless specified otherwise*/
+p {font-size: 18px;}
+
+/* This class defines the self portrait image used in the header*/
+.headshot {
+  padding-right: 10px;
+  background-image: url("4134216.jpeg");
+  height: 190px;
+  width: 180px;
+  margin-bottom: -100px;
+  background-size: cover;
+  background-position: center;}
+
+/* This class was used to define the images used in the margin section*/
+.icons {
+  float: left;
+  height: 85px;
+  width: 80px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 35px;}
+
+/* The elements in the main section share a center alignment*/
+main {
+  padding-bottom: 10px;  
+  width: 70%;
+  margin-left: 20px;
+  text-align: center;}
+
+aside {
+  text-align: left;
+  padding-bottom: -100%;}
+
+main header {
+padding-top: 10pt;
+height: 1pt;
+padding-bottom: 16pt;
 }
 
-.contact-me h2 {
-  text-align: left;
-  margin-left: -1%;
-  margin-right: 60px;
-  padding-right: 20%;
-  margin-top: 43%;
-  display: flex;
-  margin-bottom: 50px ;
-}
+.contacts {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:dimgrey;
+ font-size: 16pt;
+  margin-right: 20%;
+  width: 20%;
+  height: 450pt;
+  float: right;
+ margin-top: -70%;
+ padding-left: 55px;}
+
+.contact {
+  margin-bottom: 32px;
+  color: #ffffff;}
+
+.contact h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 35pt;
+  margin-top: 20pt;}
+
+.contact img {
+  margin: 10px auto;
+  width: 150px;
+  height: 170px;
+  padding-left: 100px;}
+
+.content {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: cadetblue;
+  color: #ffffff;
+  margin-bottom: 50px;
+  padding: 50px;
+  height: 300px;
+padding-right: 50px;
+padding-top: 20px;
+width: 70%;}
+
+.content img {
+max-height: 300px;}
+
+.content h2 {
+  font-size: 36px;
+  margin-bottom: 20pt;}
+
+.content2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: cadetblue;
+  color: #ffffff;
+  margin-bottom: 100px;
+  padding: 50px;
+  height: 900px;
+  width: 70%;}
+ 
+.content2 img{
+max-height: 200px;}
+
+.content2 h2{
+font-size: 36px;
+margin-bottom: 20pt;} 
+
+.projects h2 {
+  text-align: left}
 
 .projects {
-padding-top: 80pt;
-padding-right: 10pt;
-margin-left: 20pt;
-width: 400pt;
-text-align: center;
-}
+  margin-bottom: -90px;}
 
-.projects img {
-  display:flex;
-  margin-bottom: 10pt;
-  margin-top: -50pt;
- 
-}
+  .projects img { 
+    width:300pt;
+    height: 180pt;}
 
-.image{
-  padding-left: 500pt;
-}
+.image img{
+height: 108pt;
+width:175pt;}
 
-
-.contact-me{
-margin-right: -900px;
-margin-left: -920px;
-margin-top: 600px;
-margin-bottom: -800px;
- height: 410px;
-  width: 1100px;
-  font-family:serif;
-  background-image: url("cream1.jpeg");
-  color: black;
-  text-align: left;
-}
-
-.userimage {
-  float: left;
-  margin-right: 25px;
-  height: 120px;
-  width: 130px;
-  margin-left: 15px;
-}
-
-.workimage {
-  float: left;
-  margin-right: -60px;
-  height: 120px;
-  width: 150px;
-  margin-left: 10px;
-}
-
-.contactimage {
-  float: left;
-  margin-right: 40px;
-  height: 120px;
-  width: 130px;
-  margin-left: 10px;
-}
-
+/* The footers style defiinition has been defined below*/
 footer {
-  display: flex;
-  justify-content: center;
-  padding: 2%;
-  color: black;
-  background-image: url("cream1.jpeg");
-  background-size: cover;
-}
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 30px;}
+
+@media screen and (max-width: 992px) {
+  header {background: grey;}
+  header nav ul {margin-top: 8pt;}
+  .contacts {margin-top: -12%;margin-right: 
+    15%;padding-right: 50%; padding-left: 12%;margin-left: 50%;}
+  .contact h3{ font-size: 50px;}
+  .contact img {width: 100%; height: 60%}
+  .contact {font-size: 20pt;}
+ footer {margin-top: 70%;}}
 
 @media screen and (max-width: 768px) {
-  header, main {
-    flex-direction: column;
-  }
-
-}
+  header {margin-top: 5%;background: grey;}
+  header h1 {margin-top: 10%; padding-left: 10%;flex-direction: column;}
+  header nav ul {margin-top: 3pt;}
+  .headshot {width: 40px; height: 40px;display: flex;
+  flex-direction: column;}
+  .icons {width: 30px;height: 30px;}
+  .projects {margin-top: 100pt;}
+  .projects img{ width: 110%;}
+  .content {font-size: 12px;margin-top: 20%;}
+  .content img {max-height: 200px;}
+  .contacts {margin-top: -12%;margin-right: 
+  15%;padding-right: 50%; padding-left: 10%;margin-left: 200%;}
+  .contact h3{ font-size: 30px;}
+  .contact img {width: 100%; height: 60%}
+  .contact {font-size: 12pt;}
+  footer {margin-top: 120%;}}
