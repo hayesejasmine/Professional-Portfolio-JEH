@@ -65,7 +65,10 @@ main {
 
 aside {
   text-align: left;
-  padding-bottom: -100%;}
+  padding-bottom: -100%;
+margin-left: 300px;}
+
+
 
 main header {
 padding-top: 10pt;
@@ -77,11 +80,11 @@ padding-bottom: 16pt;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color:dimgrey;
  font-size: 16pt;
-  margin-right: 20%;
-  width: 20%;
+  margin-right: 5%;
+  width: 32%;
   height: 450pt;
   float: right;
- margin-top: -70%;
+ margin-top: -140%;
  padding-left: 55px;}
 
 .contact {
@@ -90,16 +93,21 @@ padding-bottom: 16pt;
 
 .contact h3 {
   margin-bottom: 10px;
-  text-align: center;
-  font-size: 35pt;
+  padding-left: 90px;
+  font-size: 28pt;
   margin-top: 20pt;}
 
 .contact img {
   margin: 10px auto;
   width: 150px;
   height: 170px;
-  padding-left: 100px;}
+  padding-left: 110px;}
 
+ .contact ul{
+  font-size: 15pt;
+  padding-left: -35px;
+  line-height: 40px;
+ } 
 .content {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: cadetblue;
@@ -109,14 +117,18 @@ padding-bottom: 16pt;
   height: 300px;
 padding-right: 50px;
 padding-top: 20px;
-width: 70%;}
+width: 70%;
+line-height: 40px;
+text-align: center;
+}
 
 .content img {
 max-height: 300px;}
 
 .content h2 {
   font-size: 36px;
-  margin-bottom: 20pt;}
+  margin-bottom: 40pt;
+text-align: left}
 
 .content2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -124,7 +136,7 @@ max-height: 300px;}
   color: #ffffff;
   margin-bottom: 100px;
   padding: 50px;
-  height: 900px;
+  height: 1300px;
   width: 70%;}
  
 .content2 img{
@@ -132,7 +144,8 @@ max-height: 200px;}
 
 .content2 h2{
 font-size: 36px;
-margin-bottom: 20pt;} 
+margin-bottom: 47pt;
+text-align: left;} 
 
 .projects h2 {
   text-align: left}
