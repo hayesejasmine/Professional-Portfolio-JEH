@@ -1,100 +1,130 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Professional Portfolio</title>
+        <link rel="stylesheet" href="./Assets/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <!-- Link to stylesheet using rel and href attributes -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/style.css">
-    <title>Professional Portfolio</title>
-</head>
+    <body>
+        <!-- header and nav section start -->
+        <header>
+            <div><h1>Jasmine Hayes</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="./Assets/Jasmine Hayes- Resume (1).pdf" target="_blank">My Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-
-  <!--header contains the portfolios main heading, which is my name and an unordered list of links. The nav tag has been used as this section contains navigation links.-->  
-<header>
-    <img src="Assets/4134216.jpg" alt="personal headshot" class="headshot" />
-        <h1>Jasmine Hayes</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>   
-</header>
-
-<!--"headshot" class set the styling rule (height, width, margin, position) of the personal headshot image-->
-<div class="headshot"></div></div>
-
-<main>
-    <!--"content" class is being used for this section only-->
-    <section id="about-me" class="content">
-        <img src="Assets/download.png"  alt= "user icon" class="icons" />
-        <h2>About Me</h2>
-        <p>
-            I am a fullstack developer student located in Charlotte, NC. I am currently enrolled in the Coding Boot Camp at UNC Charlotte. I love structure, order and most of all, quality. I am excited to continue refining my skills through assisting others in bringing their web ideas to life!
-        </p>
-    </section>
-
-
-
-<!--"content2" class is being used to define the "my Work" section, as it contains links-->
-<section id="my-work" class="content2">
-            <img src="Assets/my work icon.jpeg" alt="notes and pencil" class="icons" />
-            <h2>My Work</h2>
-<section>
-           <header>Code Refactoring</header>
-            <a href="https://hayesejasmine.github.io/Accessibility-Refactor-Challenge/"class="projects">
-              <img src="Assets/Image 10-23-22 at 4.47 PM.jpg" alt="cleaning up a code image" />
-</section>  
-<section>
-            <header>Javascript</header>
-            <a href="https://hayesejasmine.github.io/password-generate/index.html" class="projects">
-            <img src="Assets/javascript-password generator.png" alt= "JS password generator quiz"/></a>
-
-          <header>Web-APIs</header>
-              <a href="https://hayesejasmine.github.io/Coding-Quiz/index.html" class="projects">
-              <img src="Assets/web-api-coding quiz.png" alt="coding quiz"/></a>
-
-          <header>Third-Party APIs</header>
-              <a href="https://hayesejasmine.github.io/Workday-Calender/Develop/index.html" class="projects">
-              <img src="Assets/Third-Party APIs  Work Day Scheduler.png" alt="workday schdeule planner"/></a>
-
-        <header>Server Side APIs</header>
-              <a href="https://beefbones.github.io/travel-planner/" class="projects">
-              <img src="Assets/Server side API.png" alt="travel-planner site"/></a>
-    </section>
-        </div>
+        <!-- hero image section start -->
+        <section class="hero">
+            <div>
+                <img src="Assets/4134216.jpg"  alt="personal headshot">
+            </div>
+            <div class="quote">
+                <blockquote>
+                    <p id="quote-text">
+                        "Doing what you love <br>is the cornerstone of having </br> abundance in your life." - Wayne Dyer
+                    </p>
+                    <p>
+                        - Steve Jobs
+                        
+                    </p>
+                </blockquote>
+            </div>
         </section>
-</section>
-</main>
 
-<!--Aside element added to illustraste a sidebar for this area of contenet. "benefit" class was created as the content of the sidebar shares the same styling.-->
-<aside id="contact-me" class="contacts">
-    <div class="contact">
-        <h3>Contact Me</h3>
-        <img src="Assets/contact copy.jpeg" alt="contact icon"/>
-        <p> <ul>
-                <li>Email: hayesejasmine@gmail.com</li>
-                <li>Phone: (704) 606-9254</li>
-                <li>Linkedin: www.linkedin.com/in/jasmine-hayes-mph-8a39ab178</li>
-              </ul>
-        </p>
-    </div>
-</aside>
+        <!-- about me section start -->
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div>
+                <p>
+                     Hello, welcome to my page! 
+                     
+                    <br> I am a fullstack developer student located in Charlotte, NC. I am currently enrolled in the Coding Boot Camp at UNC Charlotte. I love structure, order and most of all, quality. I am excited to continue refining my skills through assisting others in bringing their web ideas to life!     
+                <br></br>
+                </p>
+                </div>
+        </section>
 
-<!--footer contains a closing statement of gratitude-->
-<footer>
-        <h4>Thank you for visiting</h4>
-        <h4>look forward to hearing from you!</h4> 
-</footer>
-</body>
+        <!-- my work section start -->
+        <section id="my-work" class="my-work">
+            <div class="title"><h2>My Work</h2></div>
+            <div class = "projects-grid-wrapper">
+                <div class="projects-grid">
 
+                    <a href="https://hayesejasmine.github.io/Accessibility-Refactor-Challenge/" target="_blank" class="project refactoring">
+                        <div class="project-label">
+                            <h3>Code Refactoring</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
+                    <a href="https://hayesejasmine.github.io/password-generate/index.html" target="_blank" class="project robot-gladiators">
+                        <div class="project-label">
+                            <h3>"Password Generator Quiz"</h3>
+                            <p>JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="https://hayesejasmine.github.io/Coding-Quiz/index.html" target="_blank" class="project prestige-worldwide">
+                        <div class="project-label">
+                            <h3>Coding Quiz</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="https://hayesejasmine.github.io/Workday-Calender/Develop/index.html" target="_blank"  class="project project5">
+                        <div class="project-label">
+                            <h3>Workday Schdeule Planner"</h3>
+                            <p>Third-Party APIs</p>
+                        </div>
+                    </a>
+                    <a href="https://beefbones.github.io/travel-planner/" target="_blank" class="project fo4-char-mgr">
+                        <div class="project-label">
+                            <h3>"Travel Planner Site"</h3>
+                            <p>Server Side APIs</p>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- contact info section -->
+        <footer id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="mailto:hayesejasmine@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/hayesejasmine" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jasmine-hayes-mph-8a39ab178/overlay/contact-info/#:~:text=linkedin.com/in/jasmine%2Dhayes%2Dmph%2D8a39ab178" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                            <p>Phone: (704) 606-9254</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
