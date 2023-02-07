@@ -224,6 +224,11 @@ color: black;
   opacity: 80%;
 }
 
+.fo4-char {
+  background-image: url("https://user-images.githubusercontent.com/114713151/217123001-fd5935c2-e8b7-43d4-b263-9dfcbd139287.png");
+  opacity: 80%;
+}
+
 
 .project-label {
   /*background-color: var(--secondary);*/
