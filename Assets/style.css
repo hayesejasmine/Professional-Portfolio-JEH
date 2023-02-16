@@ -29,9 +29,7 @@ header {
   padding: 20px;
 }
 
-header div {
- 
-}
+
 
 header h1 {
   color: var(--secondary);
@@ -85,7 +83,7 @@ header nav ul li a:hover {
 }
 
 .intro img {
-  height: 350px;
+  height: 370px;
   width: 310px;
 }
 
@@ -151,6 +149,27 @@ color: black;
   color: var(--secondary);
 }
 /* about me section styling end */
+
+.skills h2 {
+  color: black;
+  }
+  
+ .skills {
+  background-color: white;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 20px;
+ }
+  
+ .skills ul{
+  font-size: 25px;
+  padding: 0 300px;
+  line-height: 1.6;
+  color: black;
+ } 
+
+
+
 
 /* my work section styling start */
 .my-work {
@@ -291,12 +310,12 @@ footer ul li a:hover {
 
 /* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
-  .hero .quote {
+  .intro .quote {
       font-size: 28px;
       padding-right: 20px;
   }
   
-  .hero .quote #quote-text {
+  .intro .quote #quote-text {
       font-size: 35px;
   }
 
@@ -322,7 +341,7 @@ footer ul li a:hover {
       min-height: 80px;
   }
 
-  .hero {
+  .intro {
       flex-direction: column;
   }
 
