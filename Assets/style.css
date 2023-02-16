@@ -72,8 +72,8 @@ header nav ul li a:hover {
 /* header styling end */
 
 
-/* hero styling start */
-.hero {
+
+.intro {
   background-image: url("./light-abstract-black-and-white-architecture-sky-white-449062-pxhere.com.jpg");
   height: 600px;
   background-size: cover;
@@ -84,12 +84,12 @@ header nav ul li a:hover {
 
 }
 
-.hero img {
+.intro img {
   height: 350px;
   width: 310px;
 }
 
-.hero .quote {
+.intro .quote {
   text-align:justify style;
   background-color:rgba(255, 255, 255, 0.868);
 border-radius:4px;
@@ -98,7 +98,7 @@ margin:5px;
 }
 
 
-.hero .quote {
+.intro .quote {
   font-size: 35px;
   display: flex;
   justify-content: end;
@@ -108,7 +108,7 @@ margin:5px;
 
 }
 
-.hero .quote #quote-text {
+.intro .quote #quote-text {
   font-size: 48px;
 }
 /* hero styling end */
@@ -202,29 +202,29 @@ color: black;
   opacity: 80%;
 }
 
-.robot-gladiators {
+.project-generator {
   background-image: url("./javascript-password\ generator.png");
   background-position: 50% 15%;
   opacity: 80%;
 }
 
-.prestige-worldwide {
+.coding-quiz{
   background-image: url("./web-api-coding\ quiz.png");
   background-position: 60% 50%;
   opacity: 80%;
 }
 
-.project5 {
+.planner {
   background-image: url("./Third-Party\ APIs\ \ Work\ Day\ Scheduler.png");
   opacity: 80%;
 }
 
-.fo4-char-mgr {
+.travel-planner {
   background-image: url("./Server\ side\ API.png");
   opacity: 80%;
 }
 
-.fo4-char {
+.mvc {
   background-image: url("https://user-images.githubusercontent.com/114713151/217123001-fd5935c2-e8b7-43d4-b263-9dfcbd139287.png");
   opacity: 80%;
 }
@@ -255,7 +255,7 @@ footer {
   align-items: center;
 }
 
-#contact-list {
+#contact-options {
   width: 60%;
 }
 
