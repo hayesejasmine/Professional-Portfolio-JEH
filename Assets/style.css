@@ -248,6 +248,16 @@ color: black;
   opacity: 80%;
 }
 
+.Booksearch-MERN {
+  background-image: url("./booksearch.png");
+  opacity: 80%;
+}
+
+.scoresocial {
+  background-image: url("./scoresocial.png");
+  opacity: 80%;
+}
+
 
 .project-label {
   /*background-color: var(--secondary);*/
